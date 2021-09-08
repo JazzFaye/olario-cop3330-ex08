@@ -22,10 +22,12 @@ public class Main {
         int totalslices = pizza * slices;   //Formula to get the total slices
         int perperson = totalslices / people;   //Formula to get how many slices can each person get
         int remainder = totalslices % people;   //Formula to get how many leftover pizzas.
-
+        //Display the number of people, pizza, and total slices
         System.out.printf("%d people with %d pizza slices" + " (%d slices)", people, pizza, totalslices);
+        //Display the number of pizza each person will get
         System.out.printf("\nEach person gets %d pieces of pizza.", perperson);
+        //Display the leftover pizza
         System.out.printf("\nThere are %d leftover pieces.", remainder);
 
-    }   //End method main
-}   //End Class
+    }
+}
